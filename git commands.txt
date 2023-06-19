@@ -1,0 +1,28 @@
+##Basics to Github configuration
+
+git config --global user.name "Krishna Patel"
+git config --global user.email "krishna.ibioinfo@gmail.com"
+config --global github.user "Krish1011"    
+git config --global core.autocrlf input
+git config --global core.editor "vim"
+
+git config --global --list
+
+##Initialize a repository
+git init .
+
+git status
+git add <filename>
+git commit -m "Test"
+
+##Upload modified file
+vi check.pl
+git add check.pl
+git status
+git commit -m "Test modification"
+
+   
+git push
+git pull
+
+
